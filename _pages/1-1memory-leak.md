@@ -9,7 +9,6 @@ header:
 
 See? It was just simple segue between profile tab in main.async thread using Grand Central Dispatch.
 
-{% include base_path %}
 {% include group-by-array collection=site.post field="tags" %}
 
 {% for tag in group names %}
