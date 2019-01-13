@@ -5,7 +5,7 @@ title: "About"
 author_profile: true
 
 header:
-  image: "_pages/_images/about.jpg"
+  image: "page_images/about.jpg"
 ---
 
 My name is Hailey.
