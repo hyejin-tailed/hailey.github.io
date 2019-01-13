@@ -1,9 +1,11 @@
 ---
 layout: archive
-title: "About"
 permalink: /about/
+title: "About"
+author_profile: true
+
 header:
-  image: "_pages/_images/0-0.jpg"
+  image: "_pages/_images/00.jpg"
 ---
 
 My name is Hailey.
