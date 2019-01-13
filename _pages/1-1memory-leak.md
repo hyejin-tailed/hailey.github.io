@@ -4,7 +4,7 @@ permalink: memory-leak/
 title : "Memory Leaks"
 author_profile: true
 header:
-  image: "_pages/images/1.0.jpg"
+  image: "_pages/_images/1.0.jpg"
 ---
 
 See? It was just simple segue between profile tab in main.async thread using Grand Central Dispatch.
