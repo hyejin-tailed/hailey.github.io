@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /memory-leaks/
+permalink: /memory-leak/
 title : "Memory Leaks"
 author_profile: true
 header:
