@@ -10,7 +10,7 @@ header:
   image: "page_images/1/1-0.jpg"
 ---
 
-# #Memory Problems and Types of Debugging
+# Memory Problems and Types of Debugging
 <br><br>
 
 # Why Did I Try This Project?
