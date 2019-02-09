@@ -6,6 +6,8 @@ main:
     url: /about/
   - title: "Memory Leak"
     url: /memory-leak/
+  - title: "Delegates"
+    url: /delegates-protocols/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
