@@ -1,13 +1,13 @@
 ---
 layout: archive
 date: 2019. JAN
-permalink: memory-leak/
-title : "Memory Leaks"
-tags: [iOS, Memory]
+permalink: audiosession/
+title : "AVAudioSession"
+tags: [iOS, audio]
 
 author_profile: true
 header:
-  image: "page_images/1-1/1-0.jpg"
+  image: "page_images/3/3-0.jpg"
 ---
 
 # Memory Problems and Types of Debugging
@@ -24,11 +24,11 @@ Yes, the most important thing is stability. So i prefer usually to use “strong
 See? It was just simple segue between profile tab in main.async thread using Grand Central Dispatch.
 
 
-{% include figure image_path="page_images/1-1/1-1.jpg" alt="this is a placeholder image" caption="" %}
+{% include figure image_path="page_images/1/1-1.jpg" alt="this is a placeholder image" caption="" %}
 
 
 # Memory Problems
-{% include figure image_path="page_images/1-1/1-2.jpg" alt="this is a placeholder image" caption="" %}
+{% include figure image_path="page_images/1/1-2.jpg" alt="this is a placeholder image" caption="" %}
 
 ## Check 1. Types
 1.  Value Types : Intances keep a unique copy of thier data.  - String, Int, Bool, Array, Dictionary, struct, enum,
@@ -70,11 +70,11 @@ not optional
 -Closures are reference type.
 -Captured variable also strong reference type in Closures.
 -Use a Capture List to  change variables to weak or unowned.
-{% include figure image_path="page_images/1-1/1-3.jpg" alt="this is a placeholder image" caption="" %}
+{% include figure image_path="page_images/1/1-3.jpg" alt="this is a placeholder image" caption="" %}
 
 # Tried, However Faced an Issues.
 I tried to make @IBOutlet var  to @IBOutlet weak var , but my project is consisted of MVVM pattern so using segue with storyboard occured a problem not to draw cells.
-{% include figure image_path="page_images/1-1/1-4.jpg" alt="this is a placeholder image" caption="" %}
+{% include figure image_path="page_images/1/1-4.jpg" alt="this is a placeholder image" caption="" %}
 
 
 # Conpensate the Defect
