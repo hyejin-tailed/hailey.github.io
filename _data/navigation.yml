@@ -8,6 +8,8 @@ main:
     url: /memory-leak/
   - title: "Delegates"
     url: /delegates-protocols/
+  - title: "Singleton"
+    url: /singleton/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
